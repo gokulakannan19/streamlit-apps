@@ -24,6 +24,11 @@ def main():
         st.markdown(f"[Click to view]({url})")
 
 
+    with col2:
+        st.image('images/number-guessing-game.jpg', caption='Number-guessing-game', width=550)
+        url = "https://goks-number-guessing-game.streamlit.app/"
+        st.markdown(f"[Click to view]({url})")
+
     # # Add other content or functionalities in column 2 (optional)
     # with col2:
     #     st.write("App description")
