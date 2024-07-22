@@ -23,6 +23,10 @@ def main():
         url = "https://goks19-calculator.streamlit.app/"
         st.markdown(f"[Click to view]({url})")
 
+        st.image('images/unit_convertor.jpg', caption='Streamlit unit convertor', width=300)
+        url = "https://goks-app-unit-convertor.streamlit.app/"
+        st.markdown(f"[Click to view]({url})")
+
 
     with col2:
         st.image('images/number-guessing-game.jpg', caption='Number-guessing-game', width=550)
